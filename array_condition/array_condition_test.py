@@ -7,7 +7,7 @@ import numpy as np
 def first_test(condition, arr):
   print('\n *** FIRST TEST *** ')
   
-  #true_indexes is a tuple we need we take its first arg.
+  #true_indexes is a tuple we need to take its first arg.
   true_indexes = np.where(condition)
   print(' True indexes in array :  ', true_indexes[0])
   
