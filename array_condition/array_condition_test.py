@@ -34,8 +34,6 @@ def second_test(arr):
   
   print(' True indexes in array :  ', true_indexes)
   
-  #print(arr[i], " ", end = '')
-  
   fh_print = lambda true_indexes : [ arr[i] for i in true_indexes ]  
   
   print(' True values in array   :   ', end = '')
