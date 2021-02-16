@@ -5,15 +5,13 @@
 import numpy as np
 
 def first_test(condition, arr):
-
   print('\n *** FIRST TEST *** ')
   
-  #true_indexes is a tuple we need we take its first arg.
+  #true_indexes is a tuple we need to take its first arg.
   true_indexes = np.where(condition)
   print(' True indexes in array :  ', true_indexes[0])
   
   def return_values():
-
     true_values = np.array([])
     kk = 0
     for i in true_indexes[0]:
@@ -25,7 +23,6 @@ def first_test(condition, arr):
 
 
 def second_test(arr):
-  
   print('\n *** SECOND TEST *** ')
   
   #This gives us a list type.
@@ -37,8 +34,6 @@ def second_test(arr):
   
   print(' True indexes in array :  ', true_indexes)
   
-  #print(arr[i], " ", end = '')
-  
   fh_print = lambda true_indexes : [ arr[i] for i in true_indexes ]  
   
   print(' True values in array   :   ', end = '')
@@ -46,7 +41,6 @@ def second_test(arr):
   
   
 def third_test(arr):
-  
   print('\n *** THIRD TEST *** ')
   
   true_indexes \
@@ -66,7 +60,6 @@ def third_test(arr):
 
 
 if __name__ == "__main__":
-
   i_array = np.array([i for i in range(-5,6)]);
 
   #This is my condition for founding this items in array  
