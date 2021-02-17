@@ -1,1 +1,0 @@
-Raporda Sonuçlar kısmında istenildiği için outputlar paylaşılmıştır.
