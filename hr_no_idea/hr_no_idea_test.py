@@ -37,8 +37,7 @@ def create_sets(in_m):
     usage()
     sys.exit(-1)
   else:
-    
-  return set_array
+    return set_array
 
 # Calculate happiness for input arguments.
 # cnt_happiness takes the score of happiness
