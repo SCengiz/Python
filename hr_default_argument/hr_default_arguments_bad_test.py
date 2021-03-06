@@ -1,3 +1,7 @@
+"""
+  Answer for : "https://www.hackerrank.com/challenges/default-arguments/problem"
+"""
+
 #!/usr/bin/python3
 import sys
 
